@@ -2,11 +2,8 @@
 
     $page_title    = 'Reset Password';
     $page_class    = 'login';
-    $page_keywords = '';
-    $page_desc     = '';
 
-    $message = '';
-    $showForm = '0';
+    $message = ''; //Success/Failure message to user 
 
     // Get the token and user ID from database.
     if (isset($_REQUEST['id'], $_REQUEST['token']) && is_numeric($_REQUEST['id']) && $_REQUEST['id'] > 0 && $_REQUEST['token'] <> '') {
