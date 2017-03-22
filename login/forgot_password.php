@@ -2,10 +2,6 @@
 
     $page_title    = 'Forgot Password';
     $page_class    = 'login';
-    $page_keywords = '';
-    $page_desc     = '';
-
-    $showForm = '1';
     
     // If the form is submitted, INSERT into USERS.
     if (isset($_POST["submit"])){
@@ -86,7 +82,6 @@
 ?>
         
 <!-- Begin the page content. -->
-
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
