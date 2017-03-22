@@ -1,7 +1,5 @@
 <?php
 
-    $this_end = 'front_end';
-
     // Connect to database.
     include_once ('./assets/include/db-connect.php');
 
