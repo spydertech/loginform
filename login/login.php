@@ -2,8 +2,6 @@
 
     $page_title     = 'Log In';
     $page_class     = 'login';
-    $page_keywords  = '';
-    $page_desc      = '';
 
     // Start a session and log into the system.
     include_once ('./assets/include/db-user-login.php');
@@ -14,7 +12,6 @@
 ?>
 
 <!-- Begin the page content. -->
-
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
